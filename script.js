@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function(){
   let buttons = Array.from(buttonsNodeList);
   let results = document.getElementById("results");
   let classificationEl = document.getElementById("classification");
+  let stepEl = document.getElementById("step");
   let instructions = document.getElementById("instructions");
   let numbersNodeList = document.getElementsByClassName("num");
   let numbers = Array.from(numbersNodeList);
@@ -46,10 +47,33 @@ document.addEventListener("DOMContentLoaded", function(){
     classificationEl.options[classificationEl.options.length] = new Option(item['Position'], item['Classification_Code'])
   });
 
+  // insert options into step select
+  function addStepOptions() {
+    let steps = [1,2,3,4,5,6,7,8,9,10];
+    console.log(userClassification);
+    let userClassObj = classifications.find(item => item.Classification_Code == userClassification)
+    console.log(userClassObj);
+    let lowestStepForUser = userClassObj["Current lowest step"];
+    console.log(`lowestStepForUser: ${lowestStepForUser}`);
+    steps = steps.filter(step => parseFloat(step) >= parseFloat(lowestStepForUser));
+    console.log(steps);
+    steps.forEach((item) => {
+      stepEl.options[stepEl.options.length] = new Option(item, item)
+    });
+  }
+
   // listen for changes to classification
   classificationEl.addEventListener("change", function(event) {
     userClassification = this.value;
     console.log(`userClassification: ${userClassification}`);
+    addStepOptions();
+  });
+  
+
+  // listen for changes to step
+  stepEl.addEventListener("change", function(event) {
+    userStep = parseFloat(this.value);
+    console.log(`userStep: ${userStep}`);
   });
 
 
