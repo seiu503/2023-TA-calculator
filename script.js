@@ -1,9 +1,4 @@
-// todo:
-// check calcbtn functionality
-// test keyboard functionality
-// c2a member form after results displayed
-// test on phone
-
+import classifications from './classifications.js';
 
 // Restricts input for the textbox to the given inputFilter.
 function setInputFilter(textbox, inputFilter) {
@@ -25,7 +20,8 @@ function setInputFilter(textbox, inputFilter) {
 let COLA1 = .0215;
 let COLA2 = .03;
 let step  = .047;
-let toppedOut = false;
+let userClassification = null;
+let userStep = 1;
 let basePay = 0;
 let prevNum = null;
 
@@ -40,15 +36,20 @@ document.addEventListener("DOMContentLoaded", function(){
   let buttonsNodeList = document.getElementsByClassName("calcbtn");
   let buttons = Array.from(buttonsNodeList);
   let results = document.getElementById("results");
-  let toppedOutEl = document.getElementById("toppedOut");
+  let classificationEl = document.getElementById("classification");
   let instructions = document.getElementById("instructions");
   let numbersNodeList = document.getElementsByClassName("num");
   let numbers = Array.from(numbersNodeList);
 
-  // listen for changes to toppedOut
-  toppedOutEl.addEventListener("change", function(event) {
-    toppedOut = this.checked;
-    console.log(`toppedOut: ${toppedOut}`);
+  // insert options into classification select
+  classifications.forEach((item) => {
+    classificationEl.options[classificationEl.options.length] = new Option(item['Position'], item['Classification_Code'])
+  });
+
+  // listen for changes to classification
+  classificationEl.addEventListener("change", function(event) {
+    userClassification = this.value;
+    console.log(`userClassification: ${userClassification}`);
   });
 
 

@@ -184,7 +184,7 @@ img {
   padding: 20px;
 }
 
-.toppedOutLabel {
+.inputLabel {
   width: 100%;
   font-size: 18px;
   color: #531078;
@@ -301,6 +301,20 @@ button {
 
 #instructions {
   transition: height 1s ease-in-out;
+  width: 100%;
+}
+
+#instructions h3 {
+  margin-top: 10px;
+}
+
+#classificationLabel {
+  text-align: center;
+  padding-left: 0;
+}
+
+#classification {
+  margin: auto;
 }
 
 #display {
