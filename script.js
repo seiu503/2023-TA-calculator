@@ -1,4 +1,6 @@
 import classifications from './classifications.js';
+import salaryTable from './salaryTable.js';
+
 
 // Restricts input for the textbox to the given inputFilter.
 function setInputFilter(textbox, inputFilter) {

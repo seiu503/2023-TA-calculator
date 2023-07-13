@@ -308,12 +308,12 @@ button {
   margin-top: 10px;
 }
 
-#classificationLabel {
+#classificationLabel, #stepLabel {
   text-align: center;
   padding-left: 0;
 }
 
-#classification {
+#classification, #step {
   margin: auto;
 }
 
@@ -417,6 +417,13 @@ button {
 .disclaimer {
   font-size: .9em;
   color: gray;
+}
+
+.divider {
+  width: 100%; 
+  height: 1px; 
+  color: gray; 
+  margin-bottom: 30px;
 }
 
 #equals {
