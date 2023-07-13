@@ -385,17 +385,17 @@ button {
     background-color: #E65100;
 }
 
-.submit {
+.submitButton {
   width: 238px;
   padding: 1rem 0;
   background-color: #FFA726;
   height: 3rem;
 }
-.submit:hover {
+.submitButton:hover {
   background-color: #ffce04;
 }
 
-.start-over {
+.startOverButton {
   width: 238px;
   padding: 0 0;
   border: 0;
@@ -404,7 +404,7 @@ button {
   height: 0rem;
   transition: all 1s ease-in-out;
 }
-.start-over:hover {
+.startOverButton:hover {
   background-color: #e3ccf5;
   color: #531078;
 }

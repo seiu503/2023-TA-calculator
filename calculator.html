@@ -52,7 +52,7 @@
     <div class="container mainpage">
       <div class="row" id="maincontent">
 				<h2 class="page-title" style="margin-left: 0">Calculate Your New Raise</h2>
-				<p>Despite a year of unprecedented attacks on pubic employees, SEIU 503 members stuck with their union and it paid off. This summer the bargaining team won raises, held the line on healthcare, and made our workplaces safer and more accommodating. <a href="https://seiu503.org/member_news/the-central-table-bargaining-team-has-reached-a-tentative-agreement/">Click here for more information on your 2023 contract.</a></p>
+				<p>Despite a year of unprecedented attacks on public employees, SEIU 503 members stuck with their union and it paid off. This summer the bargaining team won raises, held the line on healthcare, and made our workplaces safer and more accommodating. <a href="https://seiu503.org/member_news/the-central-table-bargaining-team-has-reached-a-tentative-agreement/">Click here for more information on your 2023 contract.</a></p>
 
 				<p>If you are not a member, <a href="https://seiu503signup.org?src=2023TACalculator">click here to join</a>. Our ability to win wages and benefits comes from all of us standing together in Union. States where people have left their union have lower wages and benefits because they can't bargain from a position of strength. So join today.</p>
 
@@ -65,25 +65,29 @@
 					<h3 class="center">
 						Then enter your current step and click Submit.
 					</h3>
-					<label for="classification" class="inputLabel cbcontainer" id="classificationLabel">
-						<select
-							name="classification"
-							id="classification"
-							class="classification"
-						>
-						<option value="">--Your classification--</option>
-					</select>
-					</label>
+					<form id="inputForm">
+						<label for="classification" class="inputLabel cbcontainer" id="classificationLabel">
+							<select
+								name="classification"
+								id="classification"
+								class="classification"
+							>
+							<option value="">--Your classification--</option>
+						</select>
+						</label>
 
-					<label for="step" class="inputLabel cbcontainer" id="stepLabel">
-						<select
-							name="step"
-							id="step"
-							class="step"
-						>
-						<option value="">--Your current step--</option>
-					</select>
-					</label>
+						<label for="step" class="inputLabel cbcontainer" id="stepLabel">
+							<select
+								name="step"
+								id="step"
+								class="step"
+							>
+							<option value="">--Your current step--</option>
+						</select>
+						</label>
+						<button type="submit" id="submitButton" class="button btn">Submit</button>
+						<button type="button" id="startOverButton" class="button btn">Start Over</button>
+					</form>
 				</div>
 				<hr style="width: 100%;  height: 1px;  color: #eee;  margin-bottom: 30px;"/>
   			<div id="results"> </div>
