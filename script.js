@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function(){
     steps.forEach((item, index) => {
       stepEl.options[index + 1] = new Option(item, item)
     });
+    replaceSelect(stepEl, stepCustom, false);
   }
 
   // listen for changes to classification
@@ -124,23 +125,31 @@ document.addEventListener("DOMContentLoaded", function(){
   /* Look for any elements with the class "custom-select": */
   x = document.getElementsByClassName("custom-select");
   l = x.length;
-  for (i = 0; i < l; i++) {
-    selElmnt = x[i].getElementsByTagName("select")[0];
+
+  function replaceSelect(selElmnt, customElmt, replace) {
     ll = selElmnt.length;
 
-    /* For each element, create a new DIV that will act as the selected item: */
-    a = document.createElement("DIV");
-    // add class to fake select to match id of real select
-    a.setAttribute("class", `select-selected ${selElmnt.getAttribute('id')}`);
-    console.log('###############');    
-    console.log(a);
-    console.log(a.getAttribute("class"));
+    if (replace) {
+      /* For each element, create a new DIV that will act as the selected item: */
+      a = document.createElement("DIV");
+      a.setAttribute("class", `select-selected ${selElmnt.getAttribute('id')}`);
+      console.log('############### replace');    
+      console.log('a');
+      console.log(a);
+    } else {
+      a = document.getElementsByClassName(`select-selected ${selElmnt.getAttribute('id')}`)[0];
+      console.log('############### NO REPLACE');  
+      console.log('a');
+      console.log(a);
+    }
     a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-    x[i].appendChild(a);
-
+    customElmt.appendChild(a);
     /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
     b.setAttribute("class", "select-items select-hide");
+    console.log(selElmnt.options);
+    console.log(b);
+    
     for (j = 1; j < ll; j++) {
 
       /* For each option in the original select element,
@@ -154,6 +163,7 @@ document.addEventListener("DOMContentLoaded", function(){
           s = this.parentNode.parentNode.getElementsByTagName("select")[0];
           console.log('s VVVVV');
           console.log(s);
+          console.log(s.options);
           sl = s.length;
           h = this.parentNode.previousSibling;
           for (i = 0; i < sl; i++) {
@@ -180,8 +190,12 @@ document.addEventListener("DOMContentLoaded", function(){
       });
       b.appendChild(c);
     }
-    x[i].appendChild(b);
+    customElmt.appendChild(b);
     a.addEventListener("click", function(e) {
+      console.log('196 %%%%%%%%%%%%%%%');
+      console.log('clicked on....');
+      console.log(a.getAttribute('class'));
+      console.log(a);
       /* When the select box is clicked, close any other select boxes,
       and open/close the current select box: */
       e.stopPropagation();
@@ -189,6 +203,11 @@ document.addEventListener("DOMContentLoaded", function(){
       this.nextSibling.classList.toggle("select-hide");
       this.classList.toggle("select-arrow-active");
     });
+  }
+  for (i = 0; i < l; i++) {
+    let customElmt = x[i];
+    selElmnt = customElmt.getElementsByTagName("select")[0];
+    replaceSelect(selElmnt, customElmt, true);
   }
 
   function closeAllSelect(elmnt) {

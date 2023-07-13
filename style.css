@@ -261,7 +261,7 @@ img {
 /* calculator */
 button {
   color: #fff;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Source Sans Pro",sans-serif;
   font-weight: 100;
 }
 
@@ -381,8 +381,22 @@ button {
     box-shadow: rgba(0, 0, 0, 0.137255) 0px 3px 3px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 7px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -1px;
 }
 
-.btn:focus {
+.button {
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.button:focus {
     background-color: #E65100;
+}
+
+.buttonWrap {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .submitButton {
@@ -409,12 +423,17 @@ button {
   color: #531078;
 }
 
+#inputForm {
+  width: 100%;
+}
+
 /* CUSTOM SELECT STYLING */
 
  /* The container must be positioned relative: */
 .custom-select {
   position: relative;
-  font-family: Arial;
+  font-family: "Source Sans Pro",sans-serif;
+  margin: auto;
 }
 
 .custom-select select {
@@ -460,6 +479,8 @@ button {
   left: 0;
   right: 0;
   z-index: 99;
+  overflow-y: scroll;
+  max-height: 300px;
 }
 
 /* Hide the items when the select box is closed: */
