@@ -399,6 +399,11 @@ button {
   align-content: center;
 }
 
+.purplebold {
+  font-weight: 800;
+  color: #531078;
+}
+
 .submitButton {
   width: 238px;
   padding: 1rem 0;
