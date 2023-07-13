@@ -1,3 +1,4 @@
+console.log('SCRIPT LOADED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
 const classifications = [
   {
     "Position": "Accountant 1",
@@ -47654,6 +47655,7 @@ let annualIncrease = 0;
 let userPositionWithArticle = '';
 
 document.addEventListener("DOMContentLoaded", function(){
+  console.log('DOM LOADED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
 
   // save elements to variables for later access
   let displayEl = document.getElementById("display");
