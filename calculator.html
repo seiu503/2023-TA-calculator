@@ -68,25 +68,28 @@
 				</div>
 					<form id="inputForm">
 						<div id="inputs">
-							<label for="classification" class="inputLabel cbcontainer" id="classificationLabel">
-								<select
-									name="classification"
-									id="classification"
-									class="classification"
-								>
-								<option value="">--Your classification--</option>
-							</select>
-							</label>
-
-							<label for="step" class="inputLabel cbcontainer" id="stepLabel">
-								<select
-									name="step"
-									id="step"
-									class="step"
-								>
-								<option value="">--Your current step--</option>
-							</select>
-							</label>
+							<div class="custom-select" id="classifcationCustom" style="width:200px;">
+								<label for="classification" class="inputLabel cbcontainer" id="classificationLabel">
+									<select
+										name="classification"
+										id="classification"
+										class="classification"
+									>
+										<option value="">--Your classification--</option>
+									</select>
+								</label>
+							</div>
+							<div class="custom-select" id="stepCustom" style="width:200px;">
+								<label for="step" class="inputLabel cbcontainer" id="stepLabel">
+									<select
+										name="step"
+										id="step"
+										class="step"
+									>
+										<option value="">--Your current step--</option>
+									</select>
+								</label>
+							</div>
 						</div>
 						<button type="submit" id="submitButton" class="button btn">Submit</button>
 						<div id="results"> 
