@@ -1,4 +1,4 @@
-[
+const lookup = [
   {
     "Position": "Accountant 1",
     "Classification code": 1316,
@@ -31058,4 +31058,6 @@
     "difference in monthly pay": "",
     "pct_change": ""
   }
-]
+];
+
+export default lookup;

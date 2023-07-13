@@ -56,7 +56,7 @@
 
 				<p>If you are not a member, <a href="https://seiu503signup.org?src=2023TACalculator">click here to join</a>. Our ability to win wages and benefits comes from all of us standing together in Union. States where people have left their union have lower wages and benefits because they can't bargain from a position of strength. So join today.</p>
 
-				<p>One of our key wins was a package of cost of living increases (COLAs) and steps that will increase wages by an average of XXX% over the next two years. The calculator below will provide you with an estimate of your raise, based on the average step increase of XXX%.</p>
+				<p>One of our key wins was a package of cost of living increases (COLAs) and steps that will increase wages by an average of <strong>23% over the next two years</strong>. The calculator below will provide you with an estimate of your raise, based on the average step increase of 4.7%.</p>
 				<hr style="width: 100%;  height: 1px;  color: #eee;  margin-bottom: 30px;"/>
 				<div id="instructions">
 					<h3 class="center">
@@ -65,32 +65,37 @@
 					<h3 class="center">
 						Then enter your current step and click Submit.
 					</h3>
+				</div>
 					<form id="inputForm">
-						<label for="classification" class="inputLabel cbcontainer" id="classificationLabel">
-							<select
-								name="classification"
-								id="classification"
-								class="classification"
-							>
-							<option value="">--Your classification--</option>
-						</select>
-						</label>
+						<div id="inputs">
+							<label for="classification" class="inputLabel cbcontainer" id="classificationLabel">
+								<select
+									name="classification"
+									id="classification"
+									class="classification"
+								>
+								<option value="">--Your classification--</option>
+							</select>
+							</label>
 
-						<label for="step" class="inputLabel cbcontainer" id="stepLabel">
-							<select
-								name="step"
-								id="step"
-								class="step"
-							>
-							<option value="">--Your current step--</option>
-						</select>
-						</label>
+							<label for="step" class="inputLabel cbcontainer" id="stepLabel">
+								<select
+									name="step"
+									id="step"
+									class="step"
+								>
+								<option value="">--Your current step--</option>
+							</select>
+							</label>
+						</div>
 						<button type="submit" id="submitButton" class="button btn">Submit</button>
+						<div id="results"> 
+		  				<div class="message" id="message">
+					     </div>
+		  			</div>
 						<button type="button" id="startOverButton" class="button btn">Start Over</button>
 					</form>
-				</div>
 				<hr style="width: 100%;  height: 1px;  color: #eee;  margin-bottom: 30px;"/>
-  			<div id="results"> </div>
   			<div class="disclaimer">
 	  			<p>This calculator is for educational purposes only and should not be taken as financial advice. It provides an estimate based on the average step increase of 4.7%. It does not take into account any additions to your monthly pay such as differentials or incentives, nor does it take into account taxes, FSAs, or other items deducted from your paycheck, and therefore will only provide approximate results.</p>
 
