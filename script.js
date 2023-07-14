@@ -1,4 +1,3 @@
-console.log('SCRIPT LOADED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
 const classifications = [
   {
     "Position": "Accountant 1",
@@ -47649,13 +47648,12 @@ let userPosition = null;
 let userStep = 0;
 let userObj = null;
 let currentMonthlyBase = 0;
-let projectedMonthlyBase = 0;
-let projectedIncrease = 0;
-let annualIncrease = 0;
+let projectedMonthlyBase2024 = 0;
+let projectedMonthlyIncrease2024 = 0;
+let annualIncrease2025 = 0;
 let userPositionWithArticle = '';
 
 document.addEventListener("DOMContentLoaded", function(){
-  console.log('DOM LOADED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
 
   // save elements to variables for later access
   let displayEl = document.getElementById("display");
@@ -47694,8 +47692,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
   // listen for changes to classification
   function classificationChange(e) {
-    console.log('classificationChange');
-    console.log(e.target);
     userClassificationCode = e.target.value;
     console.log(`userClassificationCode: ${userClassificationCode}`);
     userPosition = e.target.options[e.target.selectedIndex].text;
@@ -47708,21 +47704,17 @@ document.addEventListener("DOMContentLoaded", function(){
         } else {
         userPositionWithArticle = `a ${userPosition}`;
       }
-    console.log(userPositionWithArticle);
     setStepOptions();
   }
 
   // listen for changes to step
   function stepChange(e) {
-    console.log('stepChange');
-    console.log(e.target);
     userStep = parseFloat(e.target.value);
     console.log(`userStep: ${userStep}`);
   }
 
   // find user object
   function lookupUserObject(userClassificationCode, userStep) {
-    console.log(`userClassificationCode: ${userClassificationCode}`);
     const objToReturn = lookup.find((obj) => {
       return obj['Classification code'] == userClassificationCode && obj['Current Step'] == userStep
     });
@@ -47734,15 +47726,16 @@ document.addEventListener("DOMContentLoaded", function(){
   function resultsString() {
     // set variables
     userObj = lookupUserObject(userClassificationCode, userStep);
-    console.log(userObj);
     currentMonthlyBase = userObj['current_monthly'];
-    projectedMonthlyBase = userObj['monthly_pay_at_contract_end'];
-    projectedIncrease = userObj['difference in monthly pay'];
-    annualIncrease = userObj['Difference in annual pay'];
-    return `<p>If you are ${userPositionWithArticle} on step ${userStep}, your current monthly base salary is $${currentMonthlyBase}. 
-    <br>By July 2025, your monthly base salary will increase to <span class="purplebold">$${projectedMonthlyBase}</span>. 
-    <br>This is an increase in monthly base pay of <span class="purplebold"> $${projectedIncrease}</span> by the end of the contract. 
-    <br>By the end of the contract, your annual salary will increase by <span class="purplebold">${annualIncrease}</span>.</p>`
+    projectedMonthlyBase2024 = userObj['monthly_pay_at_contract_end'];
+    projectedMonthlyIncrease2024 = userObj['difference in monthly pay'];
+    annualIncrease2025 = userObj['Difference in annual pay'];
+    const monthlyIncrease2025 = parseFloat(userObj['Difference in annual pay'].replace(/[^0-9]/g, "")) / 12;
+    return `<p>If you are ${userPositionWithArticle} on step ${userStep}, your current monthly base salary is <span class="purplebold">$${currentMonthlyBase}</span>. 
+    <br>Under this contract, your monthly salary will increase to <span class="purplebold">$${projectedMonthlyBase2024}</span> by July 2024. 
+    <br>This is a pay increase of <span class="purplebold"> $${projectedMonthlyIncrease2024}</span> per month. 
+    <br>By July 2025, your annual salary will increase by <span class="purplebold">${annualIncrease2025}</span>, and your monthly pay will increase by <span class="purplebold">$${monthlyIncrease2025}</span>.
+    <br>Upon ratification, you will also receive a bonus of <span class="purplebold">$1,500</span>, before taxes.</p>`
   }
 
   // On reload, reload page
@@ -47753,9 +47746,7 @@ document.addEventListener("DOMContentLoaded", function(){
   // On submit, hide keypad and display results
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(userPosition, userClassificationCode, userStep);
     if (!userPosition || !userClassificationCode || userStep == 0) {
-      console.log('@@@@@@@@@@@@@@ SUBMIT VALIDATION @@@@@@@@@@@@@@');
       submit.setAttribute("style", "display:none;");
       startOver.setAttribute("style", "display:block;");
       instructions.setAttribute("style", "height: 0; display:none;");
@@ -47789,22 +47780,14 @@ document.addEventListener("DOMContentLoaded", function(){
       /* For each element, create a new DIV that will act as the selected item: */
       a = document.createElement("DIV");
       a.setAttribute("class", `select-selected ${selElmnt.getAttribute('id')}`);
-      console.log('############### replace');    
-      console.log('a');
-      console.log(a);
     } else {
       a = document.getElementsByClassName(`select-selected ${selElmnt.getAttribute('id')}`)[0];
-      console.log('############### NO REPLACE');  
-      console.log('a');
-      console.log(a);
     }
     a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
     customElmt.appendChild(a);
     /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
     b.setAttribute("class", "select-items select-hide");
-    console.log(selElmnt.options);
-    console.log(b);
     
     for (j = 1; j < ll; j++) {
 
@@ -47817,9 +47800,6 @@ document.addEventListener("DOMContentLoaded", function(){
           and the selected item: */
           let y, i, k, s, h, sl, yl;
           s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-          console.log('s VVVVV');
-          console.log(s);
-          console.log(s.options);
           sl = s.length;
           h = this.parentNode.previousSibling;
           for (i = 0; i < sl; i++) {
