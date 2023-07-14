@@ -1,348 +1,323 @@
-﻿Position,Classification_Code,Compensation Grade,Steps_Removed,Current lowest step,New lowest step
-Accountant 1,1316,23,0,1,1
-Accountant 2,1317,27,0,1,1
-Accountant 3,1318,30,0,1,1
-Accounting Technician,313,19,2,1,3
-Accounting Technician,313,19,2,1,3
-Activities Coordinator,6530,19,4,1,5
-Administrative Law Judge 1,1510,30,0,1,1
-Administrative Law Judge 2,1511,33,0,1,1
-Administrative Law Judge 3,1513,37,0,1,1
-Administrative Specialist 1,107,17,2,1,3
-Administrative Specialist 2,108,20,2,1,3
-Adult Protective Service Specialist,6616,25,0,1,1
-Adult Protective Service Specialist,6616,25,0,1,1
-Aerial Photographer,3540,24,0,1,1
-Aircraft Pilot,8333,27,0,1,1
-Appraiser Analyst 1,735,18,2,1,3
-Appraiser Analyst 2,736,25,0,1,1
-Appraiser Analyst 3,737,28,0,1,1
-Appraiser Analyst 4,738,31,0,1,1
-Apprenticeship Representative,4380,23,0,1,1
-Automotive Fleet Attendant,4417,14,2,2,4
-Automotive Technician 1,4418,19,2,1,3
-Automotive Technician 2,4419,23,0,1,1
-Behavioral Health Specialist 1,6531,24,2,1,3
-Behavioral Health Specialist 2,6534,27,2,1,3
-Behavioral Health Specialist 3,6535,29,2,1,3
-Biological Science Assistant,3769,12,2,4,6
-Business & Employment Specialist 2,6699,21,2,1,3
-Carpenter,4003,22,0,1,1
-Certified Occupation Therapist Assistant,6506,20,4,1,5
-Chaplain,6680,24,2,1,3
-Chemist 1,3715,24,0,1,1
-Chemist 2,3716,26,0,1,1
-Chemist 3,3717,29,0,1,1
-Child Nutrition Specialist,5950,28,0,1,1
-Child Support Case Manager,5139,21,2,1,3
-Child Support Case Manager Entry,5138,19,2,1,3
-Child Support Specialist,5133,23,0,1,1
-Civil Engineering Specialist 1,3136,25,0,1,1
-Civil Rights Investigator 1,5340,21,2,1,3
-Civil Rights Investigator 2,5341,26,0,1,1
-Claims Representative 1,5307,22,0,1,1
-Claims Representative 2,5308,24,0,1,1
-Client Care Surveyor,6685,28,0,1,1
-Clinical Laboratory Scientist,6833,24,2,1,3
-Clinical Psychologist 1,6394,33,2,1,3
-Clinical Psychologist 2,6395,35,2,1,3
-Communicable Disease Analyst,5903,22,0,1,1
-Community Outreach Specialist,6614,26,0,1,1
-Compliance Specialist 1,5346,21,2,1,3
-Compliance Specialist 1,5346,21,0,1,1
-Compliance Specialist 2,5347,25,0,1,1
-Compliance Specialist 2,5347,25,0,1,1
-Compliance Specialist 3,5348,29,0,1,1
-Construction Inspector,3365,27,0,1,1
-Construction Project Manager 1,3367,27,0,1,1
-Construction Project Manager 2,3368,30,0,1,1
-Construction Project Manager 3,3369,33,0,1,1
-Cook,9117,17,2,1,3
-Custodial Services Coordinator,4103,13,2,3,5
-Custodian,4101,10,2,6,8
-Data Entry Control Technician,1475,12,2,4,6
-Data Entry Operator,501,12,2,4,6
-Dental Assistant 2,6394,20,4,1,5
-Dental Hygienist,6396,29,2,1,3
-Dietitian 2,6371,26,0,1,1
-Disability Analyst 1,5936,23,0,1,1
-Disability Analyst 2,5937,25,0,1,1
-Disability Analyst 2,5937,25,0,1,1
-District Veterinarian,6440,29,0,1,1
-DOJ Claims Examiner,5933,22,0,1,1
-Dormitory Counselor 1,6767,16,2,1,3
-Dormitory Counselor 2,6768,20,2,1,3
-Economist 1,1161,23,0,1,1
-Economist 2,1163,27,0,1,1
-Economist 3,1163,30,0,1,1
-Economist 4,1164,33,0,1,1
-Education Program Specialist 1,3300,30,0,1,1
-Education Program Specialist 2,3301,33,0,1,1
-Electrician 2,4008,26,0,1,1
-Electrician 3,4009,28,0,1,1
-Electronic Publishing Design Specialist 1,3510,17,2,1,3
-Electronic Publishing Design Specialist 2,3511,22,0,1,1
-Electronic Publishing Design Specialist 3,3513,24,0,1,1
-Electronic Security Technician 2,4051,26,0,1,1
-Employment Adjudicator,6693,23,0,1,1
-Employment Appeals Board Legal Staff,1543,29,0,1,1
-Engineering Technician 2,3110,19,2,1,3
-Engineering Technician 3,3111,21,2,1,3
-Environmental Engineer 2,3411,30,0,1,1
-Environmental Engineer 3,3413,33,0,1,1
-Environmental Health Specialist 3,3819,28,0,1,1
-Epidemiologist 1,6316,27,0,1,1
-Epidemiologist 2,6317,30,0,1,1
-Epidemiologist 3,6318,32,0,1,1
-Equipment Operator,4433,21,2,1,3
-Executive Assistant,830,25,0,1,1
-Executive Support Specialist 1,118,17,2,1,3
-Executive Support Specialist 2,119,20,2,1,3
-Facilities Engineer 1,3351,27,0,1,1
-Facilities Engineer 3,3353,33,0,1,1
-Facility Energy Technician 2,4033,22,0,1,1
-Facility Energy Technician 3,4034,26,0,1,1
-Facility Energy Technician 4,4035,29,0,1,1
-Facility Maintenance Specialist,4013,18,2,1,3
-Facility Operations Specialist 1,4014,24,0,1,1
-Facility Operations Specialist 2,4015,26,0,1,1
-Financial Enforcement Officer,1547,32,0,1,1
-Financial Examiner 1,5675,24,0,1,1
-Financial Examiner 2,5676,27,0,1,1
-Financial Examiner 3,5677,30,0,1,1
-Financial Investigator 1,5335,26,0,1,1
-Fiscal Analyst 1,1343,23,0,1,1
-Fiscal Analyst 2,1344,27,0,1,1
-Fiscal Analyst 3,1345,30,0,1,1
-Fiscal Auditor 1,5641,23,0,1,1
-Fish and Wildlife Technical Coordinator,8346,21,2,1,3
-Fish and Wildlife Technician,8341,17,2,1,3
-Fish and Wildlife Technician,8341,17,2,1,3
-Fish and Wildlife Technician Entry,8340,13,2,3,5
-Fish and Wildlife Technician Senior,8343,19,2,1,3
-Food Service Worker,9103,13,4,3,7
-Food Service Worker,9103,13,4,3,7
-Forest Crew Coordinator,8318,19,2,1,3
-Forest Lookout,8353,11,2,5,7
-Forest Management Technician,8311,16,2,1,3
-Forest Officer,8357,23,0,1,1
-Geologist 2,3531,26,0,1,1
-Governmental Auditor 1,5646,24,0,1,1
-Governmental Auditor 2,5647,26,0,1,1
-Governmental Auditor 3,5648,29,0,1,1
-Grounds Maintenance Worker 1,4109,14,2,2,4
-Grounds Maintenance Worker 2,4110,17,2,1,3
-Grounds Maintenance Worker 2,4110,17,2,1,3
-Group Life Coordinator 1,6750,15,4,1,5
-Group Life Coordinator 2,6751,19,4,1,5
-Hairdresser,9300,14B,0,1,1
-Health Care Investigator/Advisor,5911,26,0,1,1
-Health Information Specialist,15,18,2,1,3
-Heavy Equipment Technician 1,4437,23T,0,1,1
-Heavy Equipment Technician 2,4438,26B,0,1,1
-Human Services Assistant 2,6606,16,2,1,3
-Human Services Case Manager,6630,21,2,1,3
-Human Services Specialist 1,6657,15,2,1,3
-Human Services Specialist 2,6658,17,2,1,3
-Human Services Specialist 3,6659,19,2,1,3
-Human Services Specialist 4,6660,22,0,1,1
-Incident Response Operations Specialist,4165,20,2,1,3
-Industrial Hygienist 2,5706,27,0,1,1
-Industrial Hygienist 3,5707,29,0,1,1
-Industrial Hygienist 4,5708,31,0,1,1
-Information Systems Specialist 2,1483,21,2,1,3
-Information Systems Specialist 3,1483,24,0,1,1
-Information Systems Specialist 4,1484,25,0,1,1
-Information Systems Specialist 5,1485,28,0,1,1
-Information Systems Specialist 5,1485,28,0,1,1
-Information Systems Specialist 6,1486,29,0,1,1
-Information Systems Specialist 6,1486,29,0,1,1
-Information Systems Specialist 7,1487,29,0,1,1
-Information Systems Specialist 7,1487,31,0,1,1
-Information Systems Specialist 8,1488,31,0,1,1
-Institution Registered Nurse,6314,28N,2,1,3
-Institution Teacher MA,3330,26S,2,1,3
-Insurance Examiner,5748,30,0,1,1
-Insurance Examiner,5748,30,0,1,1
-Insurance Examiner Entry,5747,26,0,1,1
-Investigator 1,5331,19,2,1,3
-Investigator 2,5333,23,0,1,1
-Investigator 3,5333,26,0,1,1
-Investment Analyst 1,1333,27,0,1,1
-Investment Analyst 2,1333,30,0,1,1
-Investment Analyst 3,1334,33,0,1,1
-Juvenile Probation/Social Services Officer/Juvenile Correction Counselor,6633,24,0,1,1
-Laboratory Technician 2,6811,17,2,1,3
-Laborer/Student Worker,4116,12,2,4,6
-Legal Secretary,110,18,2,1,3
-Librarian,3330,26,0,1,1
-Licensed Practical Nurse,6135,22S,2,1,3
-Livestock Brand Inspector,5430,15,2,1,3
-Loan Specialist 1,1001,23,0,1,1
-Loan Specialist 2,1003,27,0,1,1
-Loan Specialist 3,1003,30,0,1,1
-Machinist,4018,26,0,1,1
-Mail Delivery Driver,4404,15,2,1,3
-Mail Equipment Operator 1,403,12,2,4,6
-Mail Equipment Operator 2,404,15,2,1,3
-Mail Services Assistant,405,13,2,3,5
-Manual Arts Instructor,3304,17,4,1,5
-Medical Consultant,7538,39,0,1,1
-Medical Laboratory Technician 1,6830,18,2,1,3
-Medical Laboratory Technician 2,6831,20,2,1,3
-Medical Review Coordinator,6310,28N,0,1,1
-Mental Health Security Technician,6708,17,4,1,5
-Mental Health Therapist 1,6711,17,4,1,5
-Mental Health Therapist 2,6713,19,4,1,5
-Mental Health Therapy Coordinator,6718,19,4,1,5
-Mental Health Therapy Technician,6710,15,4,1,5
-Mental Health Therapy Technician,6710,15,4,1,5
-Microbiologist 1,3779,23,0,1,1
-Microbiologist 2,3780,25,0,1,1
-Microbiologist 3,3781,28,0,1,1
-Motor Carrier Enforcement Officer 1,5857,21,2,1,3
-Motor Carrier Enforcement Officer 2,5858,24,0,1,1
-Natural Resource Specialist 1,8501,21,2,1,3
-Natural Resource Specialist 1,8501,21,0,1,1
-Natural Resource Specialist 2,8503,24,0,1,1
-Natural Resource Specialist 2,8503,24,0,1,1
-Natural Resource Specialist 3,8503,27,0,1,1
-Natural Resource Specialist 3,8503,27,0,1,1
-Natural Resource Specialist 4,8504,30,0,1,1
-Natural Resource Specialist 4,8504,30,0,1,1
-Natural Resource Specialist 5,8505,32,0,1,1
-Natural Resource Specialist 5,8505,32,0,1,1
-Nutrition Consultant,5955,29,0,1,1
-Occupational Safety Specialist 1,5709,22,0,1,1
-Occupational Safety Specialist 2,5710,27,0,1,1
-Occupational Safety Specialist 3,5711,29,0,1,1
-Occupational Therapist,6508,32,2,1,3
-Office Assistant 1,101,8,2,8,10
-Office Assistant 2,103,10,2,6,8
-Office Coordinator,801,15,2,1,3
-Office Specialist 1,103,13,2,3,5
-Office Specialist 2,104,15,2,1,3
-Operations & Policy Analyst 1,870,23,0,1,1
-Operations & Policy Analyst 2,871,27,0,1,1
-Operations & Policy Analyst 3,873,30,0,1,1
-Operations & Policy Analyst 3,873,30,0,1,1
-Operations & Policy Analyst 4,873,32,0,1,1
-Painter,4001,22,0,1,1
-Paralegal,1534,26,0,1,1
-Park Ranger 1,8434,18P,2,1,3
-Park Ranger 1,8434,18P,0,1,1
-Park Ranger 2,8435,20,2,1,3
-Park Ranger 3,8436,22,0,1,1
-Park Ranger Assistant,8433,12,2,4,6
-Park Specialist,8445,17,2,1,3
-Parking Services Representative,5550,14,2,2,4
-Parts Specialist 2,783,20,2,1,3
-Payroll Analyst,314,21,2,1,3
-Pharmacist,6360,39,2,1,3
-Pharmacist 2,6363,41,2,1,3
-Pharmacist Resident,6361,23,2,1,3
-Pharmacy Clerk & Technician 2,6388,16,4,1,5
-Pharmacy Clerk & Technician 3,6389,17,4,1,5
-Physical Therapist,6503,31,2,1,3
-Physical/Electronic Security Technician,4037,20,2,1,3
-Physical/Electronic Security Technician 3,4039,24,0,1,1
-Physician's Assistant,6357,33,0,1,1
-Planner 2,1097,27,0,1,1
-Plumber,4005,24,0,1,1
-Preadmissions Screening Specialist,6684,24,0,1,1
-Print Services Technician,3446,16,2,1,3
-Printing Production Coordinator,3475,23,0,1,1
-Procurement & Contract Specialist 1,436,23,0,1,1
-Procurement & Contract Specialist 1,436,23,0,1,1
-Procurement & Contract Specialist 2,437,27,0,1,1
-Procurement & Contract Specialist 3,438,29,0,1,1
-Procurement And Contract Assistant,435,19,2,1,3
-Program Analyst 1,860,23,0,1,1
-Program Analyst 2,861,27,0,1,1
-Program Analyst 3,863,29,0,1,1
-Program Analyst 4,863,31,0,1,1
-Project Manager 1,854,27,0,1,1
-Project Manager 2,855,30,0,1,1
-Project Manager 3,856,32,0,1,1
-Psychiatric Social Worker,6730,29,2,1,3
-Public Affairs Specialist 1,864,25,0,1,1
-Public Affairs Specialist 1,864,25,0,1,1
-Public Affairs Specialist 2,865,29,0,1,1
-Public Affairs Specialist 3,866,31,0,1,1
-Public Health Educator 1,3337,24,0,1,1
-Public Health Educator 2,3338,26,0,1,1
-Public Health Nurse 2,6339,28N,0,1,1
-Public Health Toxicologist 1,3433,29,0,1,1
-Public Service Representative 2,333,13,2,3,5
-Public Service Representative 3,333,15,2,1,3
-Public Service Representative 4,334,20,2,1,3
-Radiologic Technologist,6348,25,2,1,3
-Rehabilitation Instructor For The Blind,3333,23,0,1,1
-Rehabilitation Instructor For The Blind (Entry),3333,21,2,1,3
-Rehabilitation Therapist,6531,24,2,1,3
-Research Analyst 1,1115,19,2,1,3
-Research Analyst 2,1116,23,0,1,1
-Research Analyst 3,1117,26,0,1,1
-Research Analyst 4,1118,30,0,1,1
-Retirement Counselor 1,841,20,2,1,3
-Retirement Counselor 2,843,22,0,1,1
-Revenue Agent 1,5110,17,2,1,3
-Revenue Agent 1,5110,17,2,1,3
-Revenue Agent 2,5111,19,2,1,3
-Revenue Agent 3,5113,21,2,1,3
-Safety Specialist 1,1345,23,0,1,1
-Safety Specialist 2,1346,27,0,1,1
-Scientific Instrument Technician,4339,21,2,1,3
-Seamster,9301,15,4,1,5
-Securities Examiner,5671,30,0,1,1
-Shipping Point Inspector 1,5450,15,2,1,3
-Shipping Point Inspector 2,5451,17,2,1,3
-Sign Technician 1,4131,19,2,1,3
-Social Service Assistant,6609,17,2,1,3
-Social Service Specialist 1,6613,25,0,1,1
-Social Services Specialist 2,6613,27,0,1,1
-State Library Specialist 1,351,12,2,4,6
-State Library Specialist 2,353,18,2,1,3
-State Procurement Analyst,770,30,0,1,1
-Student Office Worker,100,7,0,9,9
-Supply Specialist 1,758,14,2,2,4
-Supply Specialist 2,759,20,2,1,3
-Tax Auditor 1,5631,25,0,1,1
-Tax Auditor 1,5631,25,0,1,1
-Tax Auditor 2,5633,28,0,1,1
-Tax Auditor 2,5633,28,0,1,1
-Tax Auditor/Entry,5630,20,2,1,3
-Teaching Assistant,3303,15,2,1,3
-Traffic Survey Interviewer,1105,8,2,8,10
-Training & Development Specialist 1,1338,23,0,1,1
-Training & Development Specialist 2,1339,27,0,1,1
-Transportation Maintenance Coordinator 1,4161,21,2,1,3
-Transportation Maintenance Coordinator 2,4163,22,0,1,1
-Transportation Maintenance Specialist 1,4151,17,2,1,3
-Transportation Maintenance Specialist 2,4153,19,2,1,3
-Transportation Maintenance Specialist 2,4153,19,2,1,3
-Transportation Maintenance Specialist Entry,4150,14B,0,1,1
-Transportation Services Office Leader,333,21,2,1,3
-Transportation Services Representative 1,331,17,2,1,3
-Transportation Services Representative 2,333,19,2,1,3
-Transportation Telecommunications Specialist 1,4166,20,2,1,3
-Transportation Telecommunications Specialist 2,4167,22,0,1,1
-Transporter,4403,11B,0,1,1
-Transporting Mental Health Aide,6101,17,4,1,5
-Truck Driver 1,4401,17,2,1,3
-Truck Driver 2,4403,20,2,1,3
-Veterans Service Officer,799,23,0,1,1
-Veterans Trust Officer,784,23,0,1,1
-Video Producer,3176,28,0,1,1
-Vocational Rehabilitation Counselor,6647,25,0,1,1
-Vocational Rehabilitation Counselor Entry,6646,20,2,1,3
-Vocational Rehabilitation Specialist,6648,26,0,1,1
-Water Resource Data Technician 1,8510,19,2,1,3
-Water Resource Data Technician 2,8511,21,2,1,3
-Wildland Fire Dispatcher,8364,15,2,1,3
-Wildland Fire Dispatcher Entry,8363,11,2,5,7
-Wildland Fire Suppression Specialist,8355,17,2,1,3
-Wildland Fire Suppression Specialist Entry,8354,13,2,3,5
-Word Processing Technician 2,531,14,2,2,4
-Word Processing Technician 3,533,16,2,1,3
-Youth Corrections Unit Coordinator,6755,23,2,1,3
+﻿Position,Classification_Code,Current lowest step
+Accountant 1,1316,1
+Accountant 2,1317,1
+Accountant 3,1318,1
+Accounting Technician,313,1
+Activities Coordinator,6530,1
+Administrative Law Judge 1,1510,1
+Administrative Law Judge 2,1511,1
+Administrative Law Judge 3,1513,1
+Administrative Specialist 1,107,1
+Administrative Specialist 2,108,1
+Adult Protective Service Specialist,6616,1
+Aerial Photographer,3540,1
+Aircraft Pilot,8333,1
+Appraiser Analyst 1,735,1
+Appraiser Analyst 2,736,1
+Appraiser Analyst 3,737,1
+Appraiser Analyst 4,738,1
+Apprenticeship Representative,4380,1
+Automotive Fleet Attendant,4417,2
+Automotive Technician 1,4418,1
+Automotive Technician 2,4419,1
+Behavioral Health Specialist 1,6531,1
+Behavioral Health Specialist 2,6534,1
+Behavioral Health Specialist 3,6535,1
+Biological Science Assistant,3769,4
+Business & Employment Specialist 2,6699,1
+Carpenter,4003,1
+Certified Occupation Therapist Assistant,6506,1
+Chaplain,6680,1
+Chemist 1,3715,1
+Chemist 2,3716,1
+Chemist 3,3717,1
+Child Nutrition Specialist,5950,1
+Child Support Case Manager,5139,1
+Child Support Case Manager Entry,5138,1
+Child Support Specialist,5133,1
+Civil Engineering Specialist 1,3136,1
+Civil Rights Investigator 1,5340,1
+Civil Rights Investigator 2,5341,1
+Claims Representative 1,5307,1
+Claims Representative 2,5308,1
+Client Care Surveyor,6685,1
+Clinical Laboratory Scientist,6833,1
+Clinical Psychologist 1,6394,1
+Clinical Psychologist 2,6395,1
+Communicable Disease Analyst,5903,1
+Community Outreach Specialist,6614,1
+Compliance Specialist 1,5346,1
+Compliance Specialist 2,5347,1
+Compliance Specialist 3,5348,1
+Construction Inspector,3365,1
+Construction Project Manager 1,3367,1
+Construction Project Manager 2,3368,1
+Construction Project Manager 3,3369,1
+Cook,9117,1
+Custodial Services Coordinator,4103,3
+Custodian,4101,6
+Data Entry Control Technician,1475,4
+Data Entry Operator,501,4
+Dental Assistant 2,6394,1
+Dental Hygienist,6396,1
+Dietitian 2,6371,1
+Disability Analyst 1,5936,1
+Disability Analyst 2,5937,1
+Disability Analyst 2,5937,1
+District Veterinarian,6440,1
+DOJ Claims Examiner,5933,1
+Dormitory Counselor 1,6767,1
+Dormitory Counselor 2,6768,1
+Economist 1,1161,1
+Economist 2,1163,1
+Economist 3,1163,1
+Economist 4,1164,1
+Education Program Specialist 1,3300,1
+Education Program Specialist 2,3301,1
+Electrician 2,4008,1
+Electrician 3,4009,1
+Electronic Publishing Design Specialist 1,3510,1
+Electronic Publishing Design Specialist 2,3511,1
+Electronic Publishing Design Specialist 3,3513,1
+Electronic Security Technician 2,4051,1
+Employment Adjudicator,6693,1
+Employment Appeals Board Legal Staff,1543,1
+Engineering Technician 2,3110,1
+Engineering Technician 3,3111,1
+Environmental Engineer 2,3411,1
+Environmental Engineer 3,3413,1
+Environmental Health Specialist 3,3819,1
+Epidemiologist 1,6316,1
+Epidemiologist 2,6317,1
+Epidemiologist 3,6318,1
+Equipment Operator,4433,1
+Executive Assistant,830,1
+Executive Support Specialist 1,118,1
+Executive Support Specialist 2,119,1
+Facilities Engineer 1,3351,1
+Facilities Engineer 3,3353,1
+Facility Energy Technician 2,4033,1
+Facility Energy Technician 3,4034,1
+Facility Energy Technician 4,4035,1
+Facility Maintenance Specialist,4013,1
+Facility Operations Specialist 1,4014,1
+Facility Operations Specialist 2,4015,1
+Financial Enforcement Officer,1547,1
+Financial Examiner 1,5675,1
+Financial Examiner 2,5676,1
+Financial Examiner 3,5677,1
+Financial Investigator 1,5335,1
+Fiscal Analyst 1,1343,1
+Fiscal Analyst 2,1344,1
+Fiscal Analyst 3,1345,1
+Fiscal Auditor 1,5641,1
+Fish and Wildlife Technical Coordinator,8346,1
+Fish and Wildlife Technician,8341,1
+Fish and Wildlife Technician,8341,1
+Fish and Wildlife Technician Entry,8340,3
+Fish and Wildlife Technician Senior,8343,1
+Food Service Worker,9103,3
+Forest Crew Coordinator,8318,1
+Forest Lookout,8353,5
+Forest Management Technician,8311,1
+Forest Officer,8357,1
+Geologist 2,3531,1
+Governmental Auditor 1,5646,1
+Governmental Auditor 2,5647,1
+Governmental Auditor 3,5648,1
+Grounds Maintenance Worker 1,4109,2
+Grounds Maintenance Worker 2,4110,1
+Group Life Coordinator 1,6750,1
+Group Life Coordinator 2,6751,1
+Hairdresser,9300,5
+Health Care Investigator/Advisor,5911,1
+Health Information Specialist,15,1
+Heavy Equipment Technician 1,4437,5
+Heavy Equipment Technician 2,4438,5
+Human Services Assistant 2,6606,1
+Human Services Case Manager,6630,1
+Human Services Specialist 1,6657,1
+Human Services Specialist 2,6658,1
+Human Services Specialist 3,6659,1
+Human Services Specialist 4,6660,1
+Incident Response Operations Specialist,4165,1
+Industrial Hygienist 2,5706,1
+Industrial Hygienist 3,5707,1
+Industrial Hygienist 4,5708,1
+Information Systems Specialist 2,1483,1
+Information Systems Specialist 3,1483,1
+Information Systems Specialist 4,1484,1
+Information Systems Specialist 5,1485,1
+Information Systems Specialist 6,1486,1
+Information Systems Specialist 7,1487,1
+Information Systems Specialist 8,1488,1
+Institution Registered Nurse,6314,1
+Insurance Examiner,5748,1
+Insurance Examiner Entry,5747,1
+Investigator 1,5331,1
+Investigator 2,5333,1
+Investigator 3,5333,1
+Investment Analyst 1,1333,1
+Investment Analyst 2,1333,1
+Investment Analyst 3,1334,1
+Juvenile Probation/Social Services Officer/Juvenile Correction Counselor,6633,1
+Laboratory Technician 2,6811,1
+Laborer/Student Worker,4116,4
+Legal Secretary,110,1
+Librarian,3330,1
+Licensed Practical Nurse,6135,1
+Livestock Brand Inspector,5430,1
+Loan Specialist 1,1001,1
+Loan Specialist 2,1003,1
+Loan Specialist 3,1003,1
+Machinist,4018,1
+Mail Delivery Driver,4404,1
+Mail Equipment Operator 1,403,4
+Mail Equipment Operator 2,404,1
+Mail Services Assistant,405,3
+Manual Arts Instructor,3304,1
+Medical Consultant,7538,1
+Medical Laboratory Technician 1,6830,1
+Medical Laboratory Technician 2,6831,1
+Medical Review Coordinator,6310,1
+Mental Health Security Technician,6708,1
+Mental Health Therapist 1,6711,1
+Mental Health Therapist 2,6713,1
+Mental Health Therapy Coordinator,6718,1
+Mental Health Therapy Technician,6710,1
+Microbiologist 1,3779,1
+Microbiologist 2,3780,1
+Microbiologist 3,3781,1
+Motor Carrier Enforcement Officer 1,5857,1
+Motor Carrier Enforcement Officer 2,5858,1
+Natural Resource Specialist 1,8501,1
+Natural Resource Specialist 2,8503,1
+Natural Resource Specialist 3,8503,1
+Natural Resource Specialist 4,8504,1
+Natural Resource Specialist 5,8505,1
+Nutrition Consultant,5955,1
+Occupational Safety Specialist 1,5709,1
+Occupational Safety Specialist 2,5710,1
+Occupational Safety Specialist 3,5711,1
+Occupational Therapist,6508,1
+Office Assistant 1,101,8
+Office Assistant 2,103,6
+Office Coordinator,801,1
+Office Specialist 1,103,3
+Office Specialist 2,104,1
+Operations & Policy Analyst 1,870,1
+Operations & Policy Analyst 2,871,1
+Operations & Policy Analyst 3,873,1
+Operations & Policy Analyst 4,873,1
+Painter,4001,1
+Paralegal,1534,1
+Park Ranger 1,8434,1
+Park Ranger 2,8435,1
+Park Ranger 3,8436,1
+Park Ranger Assistant,8433,4
+Park Specialist,8445,1
+Parking Services Representative,5550,2
+Parts Specialist 2,783,1
+Payroll Analyst,314,1
+Pharmacist,6360,1
+Pharmacist 2,6363,1
+Pharmacist Resident,6361,1
+Pharmacy Clerk & Technician 2,6388,1
+Pharmacy Clerk & Technician 3,6389,1
+Physical Therapist,6503,1
+Physical/Electronic Security Technician,4037,1
+Physical/Electronic Security Technician 3,4039,1
+Physician's Assistant,6357,1
+Planner 2,1097,1
+Plumber,4005,1
+Preadmissions Screening Specialist,6684,1
+Print Services Technician,3446,1
+Printing Production Coordinator,3475,1
+Procurement & Contract Specialist 1,436,1
+Procurement & Contract Specialist 2,437,1
+Procurement & Contract Specialist 3,438,1
+Procurement And Contract Assistant,435,1
+Program Analyst 1,860,1
+Program Analyst 2,861,1
+Program Analyst 3,863,1
+Program Analyst 4,863,1
+Project Manager 1,854,1
+Project Manager 2,855,1
+Project Manager 3,856,1
+Psychiatric Social Worker,6730,1
+Public Affairs Specialist 1,864,1
+Public Affairs Specialist 2,865,1
+Public Affairs Specialist 3,866,1
+Public Health Educator 1,3337,1
+Public Health Educator 2,3338,1
+Public Health Nurse 2,6339,1
+Public Health Toxicologist 1,3433,1
+Public Service Representative 2,333,3
+Public Service Representative 3,333,1
+Public Service Representative 4,334,1
+Radiologic Technologist,6348,1
+Rehabilitation Instructor For The Blind,3333,1
+Rehabilitation Instructor For The Blind (Entry),3333,1
+Rehabilitation Therapist,6531,1
+Research Analyst 1,1115,1
+Research Analyst 2,1116,1
+Research Analyst 3,1117,1
+Research Analyst 4,1118,1
+Retirement Counselor 1,841,1
+Retirement Counselor 2,843,1
+Revenue Agent 1,5110,1
+Revenue Agent 2,5111,1
+Revenue Agent 3,5113,1
+Safety Specialist 1,1345,1
+Safety Specialist 2,1346,1
+Scientific Instrument Technician,4339,1
+Seamster,9301,1
+Securities Examiner,5671,1
+Shipping Point Inspector 1,5450,1
+Shipping Point Inspector 2,5451,1
+Sign Technician 1,4131,1
+Social Service Assistant,6609,1
+Social Service Specialist 1,6613,1
+Social Services Specialist 2,6613,1
+State Library Specialist 1,351,4
+State Library Specialist 2,353,1
+State Procurement Analyst,770,1
+Student Office Worker,100,9
+Supply Specialist 1,758,2
+Supply Specialist 2,759,1
+Tax Auditor 1,5631,1
+Tax Auditor 2,5633,1
+Tax Auditor/Entry,5630,1
+Teaching Assistant,3303,1
+Traffic Survey Interviewer,1105,8
+Training & Development Specialist 1,1338,1
+Training & Development Specialist 2,1339,1
+Transportation Maintenance Coordinator 1,4161,1
+Transportation Maintenance Coordinator 2,4163,1
+Transportation Maintenance Specialist 1,4151,1
+Transportation Maintenance Specialist 2,4153,1
+Transportation Maintenance Specialist Entry,4150,5
+Transportation Services Office Leader,333,1
+Transportation Services Representative 1,331,1
+Transportation Services Representative 2,333,1
+Transportation Telecommunications Specialist 1,4166,1
+Transportation Telecommunications Specialist 2,4167,1
+Transporter,4403,5
+Transporting Mental Health Aide,6101,1
+Truck Driver 1,4401,1
+Truck Driver 2,4403,1
+Veterans Service Officer,799,1
+Veterans Trust Officer,784,1
+Video Producer,3176,1
+Vocational Rehabilitation Counselor,6647,1
+Vocational Rehabilitation Counselor Entry,6646,1
+Vocational Rehabilitation Specialist,6648,1
+Water Resource Data Technician 1,8510,1
+Water Resource Data Technician 2,8511,1
+Wildland Fire Dispatcher,8364,1
+Wildland Fire Dispatcher Entry,8363,5
+Wildland Fire Suppression Specialist,8355,1
+Wildland Fire Suppression Specialist Entry,8354,3
+Word Processing Technician 2,531,2
+Word Processing Technician 3,533,1
+Youth Corrections Unit Coordinator,6755,1
