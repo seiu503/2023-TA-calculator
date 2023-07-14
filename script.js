@@ -47646,7 +47646,7 @@ const lookup =[
 // set global variables
 let userClassificationCode = null;
 let userPosition = null;
-let userStep = 1;
+let userStep = 0;
 let userObj = null;
 let currentMonthlyBase = 0;
 let projectedMonthlyBase = 0;
@@ -47753,8 +47753,19 @@ document.addEventListener("DOMContentLoaded", function(){
   // On submit, hide keypad and display results
   function handleSubmit(e) {
     e.preventDefault();
+    console.log(userPosition, userClassificationCode, userStep);
+    if (!userPosition || !userClassificationCode || userStep == 0) {
+      console.log('@@@@@@@@@@@@@@ SUBMIT VALIDATION @@@@@@@@@@@@@@');
+      submit.setAttribute("style", "display:none;");
+      startOver.setAttribute("style", "display:block;");
+      instructions.setAttribute("style", "height: 0; display:none;");
+      inputs.setAttribute("style", "height: 0; display:none;");
+      message.setAttribute("style", "display:block;");
+      results.innerHTML = "Please select both your classification and your current step.";
+      return;
+    }
     submit.setAttribute("style", "display:none;");
-    startOver.setAttribute("style", "height:3rem; padding: 1rem 0; border: 1px solid white");
+    startOver.setAttribute("style", "display:block;");
     instructions.setAttribute("style", "height: 0; display:none;");
     inputs.setAttribute("style", "height: 0; display:none;");
     message.setAttribute("style", "display:block;");
@@ -47837,10 +47848,6 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     customElmt.appendChild(b);
     a.addEventListener("click", function(e) {
-      console.log('196 %%%%%%%%%%%%%%%');
-      console.log('clicked on....');
-      console.log(a.getAttribute('class'));
-      console.log(a);
       /* When the select box is clicked, close any other select boxes,
       and open/close the current select box: */
       e.stopPropagation();
