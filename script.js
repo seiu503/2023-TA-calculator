@@ -43223,6 +43223,7 @@ let projectedMonthlyBase2024 = 0;
 let projectedMonthlyIncrease2024 = 0;
 let annualIncrease2025 = 0;
 let userPositionWithArticle = '';
+let strikeable;
 
 document.addEventListener("DOMContentLoaded", function(){
 
@@ -43239,6 +43240,13 @@ document.addEventListener("DOMContentLoaded", function(){
   let stepCustom = document.getElementById("stepCustom");
   let instructions = document.getElementById("instructions");
   let inputs = document.getElementById("inputs");
+  let strikeableEl = document.getElementById('strikeable');
+
+  // listen for changes to strikeable
+  strikeableEl.addEventListener("change", function(event) {
+    strikeable = this.checked;
+    console.log(`strikeable: ${strikeable}`);
+  });
 
   // insert options into classification select
   classifications.forEach((item) => {
@@ -43321,7 +43329,7 @@ document.addEventListener("DOMContentLoaded", function(){
     return `<p style="max-width: 600px; margin: auto auto 20px auto;"><ul style="max-width: 600px; margin: auto;"><li style="margin-bottom:15px;">If you are ${userPositionWithArticle} on step ${userStep}, your current monthly base salary is <span class="purplebold">$${currentMonthlyBase.toLocaleString()}</span>. 
     </li><li style="margin-bottom:15px;">Upon ratification, you will receive a one-time cost-of-living payment of <span class="purplebold">$1,500</span>, before taxes.
     </li><li style="margin-bottom:15px;">By July 2024, your monthly salary will increase to <span class="purplebold">$${projectedMonthlyBase2024.toLocaleString()}</span>. This is a pay increase of <span class="purplebold"> $${projectedMonthlyIncrease2024.toLocaleString()}</span> per month. 
-    </li><li style="margin-bottom:15px;">By July 2025, your monthly salary will increase to <span class="purplebold">$${projectedMonthlyBase2025.toLocaleString()}</span>. This is a pay increase of <span class="purplebold"> $${monthlyIncrease2025.toLocaleString()}</span> per month, or <span class="purplebold">$${annualIncrease2025.toLocaleString()}</span> per year.
+    </li><li style="margin-bottom:15px;">By July 2025, your monthly salary will increase to <span class="purplebold">$${projectedMonthlyBase2025.toLocaleString()}</span>. This is a total pay increase of <span class="purplebold"> $${monthlyIncrease2025.toLocaleString()}</span> per month, or <span class="purplebold">$${annualIncrease2025.toLocaleString()}</span> per year.
     </li></ul>
     </p>`
   }
