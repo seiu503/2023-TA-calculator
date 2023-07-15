@@ -1,0 +1,797 @@
+[
+  {
+    "Position": "Accountant 1",
+    "Classification_Code": 1316,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Accounting Technician",
+    "Classification_Code": 313,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Activities Coordinator",
+    "Classification_Code": 6530,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Administrative Specialist 1",
+    "Classification_Code": 107,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Administrative Specialist 2",
+    "Classification_Code": 108,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Apprenticeship Representative",
+    "Classification_Code": 4380,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Automotive Fleet Attendant",
+    "Classification_Code": 4417,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Automotive Technician 1",
+    "Classification_Code": 4418,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Automotive Technician 2",
+    "Classification_Code": 4419,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Behavioral Health Specialist 3",
+    "Classification_Code": 6535,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Business & Employment Specialist 2",
+    "Classification_Code": 6699,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Certified Occupation Therapist Assistant",
+    "Classification_Code": 6506,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Chemist 3",
+    "Classification_Code": 3717,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Child Support Case Manager",
+    "Classification_Code": 5139,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Child Support Case Manager Entry",
+    "Classification_Code": 5138,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Child Support Specialist",
+    "Classification_Code": 5133,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Civil Rights Investigator 1",
+    "Classification_Code": 5340,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Compliance Specialist 1",
+    "Classification_Code": 5346,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Compliance Specialist 3",
+    "Classification_Code": 5348,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Cook",
+    "Classification_Code": 9117,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Custodial Services Coordinator",
+    "Classification_Code": 4103,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Dental Assistant 2",
+    "Classification_Code": 6394,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Dental Hygienist",
+    "Classification_Code": 6396,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Disability Analyst 1",
+    "Classification_Code": 5936,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "District Veterinarian",
+    "Classification_Code": 6440,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Dormitory Counselor 1",
+    "Classification_Code": 6767,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Dormitory Counselor 2",
+    "Classification_Code": 6768,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Economist 1",
+    "Classification_Code": 1161,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Electronic Publishing Design Specialist 1",
+    "Classification_Code": 3510,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Employment Adjudicator",
+    "Classification_Code": 6693,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Employment Appeals Board Legal Staff",
+    "Classification_Code": 1543,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Engineering Technician 2",
+    "Classification_Code": 3110,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Engineering Technician 3",
+    "Classification_Code": 3111,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Equipment Operator",
+    "Classification_Code": 4433,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Executive Support Specialist 1",
+    "Classification_Code": 118,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Executive Support Specialist 2",
+    "Classification_Code": 119,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Facility Energy Technician 4",
+    "Classification_Code": 4035,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Fiscal Analyst 1",
+    "Classification_Code": 1343,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Fiscal Auditor 1",
+    "Classification_Code": 5641,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Fish and Wildlife Technical Coordinator",
+    "Classification_Code": 8346,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Fish and Wildlife Technician",
+    "Classification_Code": 8341,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Fish and Wildlife Technician Entry",
+    "Classification_Code": 8340,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Fish and Wildlife Technician Senior",
+    "Classification_Code": 8343,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Food Service Worker",
+    "Classification_Code": 9103,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Forest Crew Coordinator",
+    "Classification_Code": 8318,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Forest Management Technician",
+    "Classification_Code": 8311,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Forest Officer",
+    "Classification_Code": 8357,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Governmental Auditor 3",
+    "Classification_Code": 5648,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Grounds Maintenance Worker 1",
+    "Classification_Code": 4109,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Grounds Maintenance Worker 2",
+    "Classification_Code": 4110,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Group Life Coordinator 1",
+    "Classification_Code": 6750,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Group Life Coordinator 2",
+    "Classification_Code": 6751,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Human Services Assistant 2",
+    "Classification_Code": 6606,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Human Services Case Manager",
+    "Classification_Code": 6630,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Human Services Specialist 1",
+    "Classification_Code": 6657,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Human Services Specialist 2",
+    "Classification_Code": 6658,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Human Services Specialist 3",
+    "Classification_Code": 6659,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Incident Response Operations Specialist",
+    "Classification_Code": 4165,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Industrial Hygienist 3",
+    "Classification_Code": 5707,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Information Systems Specialist 2",
+    "Classification_Code": 1483,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Information Systems Specialist 6",
+    "Classification_Code": 1486,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Information Systems Specialist 7",
+    "Classification_Code": 1487,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Investigator 1",
+    "Classification_Code": 5331,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Investigator 2",
+    "Classification_Code": 5333,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Laboratory Technician 2",
+    "Classification_Code": 6811,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Licensed Practical Nurse",
+    "Classification_Code": 6135,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Livestock Brand Inspector",
+    "Classification_Code": 5430,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Loan Specialist 1",
+    "Classification_Code": 1001,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mail Delivery Driver",
+    "Classification_Code": 4404,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mail Equipment Operator 2",
+    "Classification_Code": 404,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mail Services Assistant",
+    "Classification_Code": 405,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Manual Arts Instructor",
+    "Classification_Code": 3304,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Medical Laboratory Technician 2",
+    "Classification_Code": 6831,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mental Health Security Technician",
+    "Classification_Code": 6708,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mental Health Therapist 1",
+    "Classification_Code": 6711,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mental Health Therapist 2",
+    "Classification_Code": 6713,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mental Health Therapy Coordinator",
+    "Classification_Code": 6718,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Mental Health Therapy Technician",
+    "Classification_Code": 6710,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Microbiologist 1",
+    "Classification_Code": 3779,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Motor Carrier Enforcement Officer 1",
+    "Classification_Code": 5857,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Natural Resource Specialist 1",
+    "Classification_Code": 8501,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Nutrition Consultant",
+    "Classification_Code": 5955,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Occupational Safety Specialist 3",
+    "Classification_Code": 5711,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Office Coordinator",
+    "Classification_Code": 801,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Office Specialist 1",
+    "Classification_Code": 103,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Office Specialist 2",
+    "Classification_Code": 104,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Operations & Policy Analyst 1",
+    "Classification_Code": 870,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Park Ranger 2",
+    "Classification_Code": 8435,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Park Specialist",
+    "Classification_Code": 8445,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Parking Services Representative",
+    "Classification_Code": 5550,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Parts Specialist 2",
+    "Classification_Code": 783,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Payroll Analyst",
+    "Classification_Code": 314,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Pharmacist Resident",
+    "Classification_Code": 6361,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Pharmacy Clerk & Technician 2",
+    "Classification_Code": 6388,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Pharmacy Clerk & Technician 3",
+    "Classification_Code": 6389,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Physical/Electronic Security Technician",
+    "Classification_Code": 4037,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Print Services Technician",
+    "Classification_Code": 3446,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Printing Production Coordinator",
+    "Classification_Code": 3475,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Procurement & Contract Specialist 1",
+    "Classification_Code": 436,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Procurement & Contract Specialist 3",
+    "Classification_Code": 438,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Procurement And Contract Assistant",
+    "Classification_Code": 435,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Program Analyst 1",
+    "Classification_Code": 860,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Program Analyst 3",
+    "Classification_Code": 863,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Psychiatric Social Worker",
+    "Classification_Code": 6730,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Public Affairs Specialist 2",
+    "Classification_Code": 865,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Public Health Toxicologist 1",
+    "Classification_Code": 3433,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Public Service Representative 2",
+    "Classification_Code": 333,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Public Service Representative 3",
+    "Classification_Code": 333,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Public Service Representative 4",
+    "Classification_Code": 334,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Rehabilitation Instructor For The Blind",
+    "Classification_Code": 3333,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Rehabilitation Instructor For The Blind (Entry)",
+    "Classification_Code": 3333,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Research Analyst 1",
+    "Classification_Code": 1115,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Research Analyst 2",
+    "Classification_Code": 1116,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Retirement Counselor 1",
+    "Classification_Code": 841,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Revenue Agent 1",
+    "Classification_Code": 5110,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Revenue Agent 2",
+    "Classification_Code": 5111,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Revenue Agent 3",
+    "Classification_Code": 5113,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Safety Specialist 1",
+    "Classification_Code": 1345,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Scientific Instrument Technician",
+    "Classification_Code": 4339,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Seamster",
+    "Classification_Code": 9301,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Shipping Point Inspector 1",
+    "Classification_Code": 5450,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Shipping Point Inspector 2",
+    "Classification_Code": 5451,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Sign Technician 1",
+    "Classification_Code": 4131,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Social Service Assistant",
+    "Classification_Code": 6609,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Supply Specialist 1",
+    "Classification_Code": 758,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Supply Specialist 2",
+    "Classification_Code": 759,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Tax Auditor/Entry",
+    "Classification_Code": 5630,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Teaching Assistant",
+    "Classification_Code": 3303,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Training & Development Specialist 1",
+    "Classification_Code": 1338,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transportation Maintenance Coordinator 1",
+    "Classification_Code": 4161,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transportation Maintenance Specialist 1",
+    "Classification_Code": 4151,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transportation Maintenance Specialist 2",
+    "Classification_Code": 4153,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transportation Services Office Leader",
+    "Classification_Code": 333,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transportation Services Representative 1",
+    "Classification_Code": 331,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transportation Services Representative 2",
+    "Classification_Code": 333,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transportation Telecommunications Specialist 1",
+    "Classification_Code": 4166,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Transporting Mental Health Aide",
+    "Classification_Code": 6101,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Truck Driver 1",
+    "Classification_Code": 4401,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Truck Driver 2",
+    "Classification_Code": 4403,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Veterans Service Officer",
+    "Classification_Code": 799,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Veterans Trust Officer",
+    "Classification_Code": 784,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Vocational Rehabilitation Counselor Entry",
+    "Classification_Code": 6646,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Water Resource Data Technician 1",
+    "Classification_Code": 8510,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Water Resource Data Technician 2",
+    "Classification_Code": 8511,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Wildland Fire Dispatcher",
+    "Classification_Code": 8364,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Wildland Fire Suppression Specialist",
+    "Classification_Code": 8355,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Wildland Fire Suppression Specialist Entry",
+    "Classification_Code": 8354,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Word Processing Technician 2",
+    "Classification_Code": 531,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Word Processing Technician 3",
+    "Classification_Code": 533,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Youth Corrections Unit Coordinator",
+    "Classification_Code": 6755,
+    "Current lowest step": 1
+  },
+  {
+    "Position": "Biological Science Assistant",
+    "Classification_Code": 3769,
+    "Current lowest step": 2
+  },
+  {
+    "Position": "Data Entry Control Technician",
+    "Classification_Code": 1475,
+    "Current lowest step": 2
+  },
+  {
+    "Position": "Data Entry Operator",
+    "Classification_Code": 501,
+    "Current lowest step": 2
+  },
+  {
+    "Position": "Laborer/Student Worker",
+    "Classification_Code": 4116,
+    "Current lowest step": 2
+  },
+  {
+    "Position": "Mail Equipment Operator 1",
+    "Classification_Code": 403,
+    "Current lowest step": 2
+  },
+  {
+    "Position": "Park Ranger Assistant",
+    "Classification_Code": 8433,
+    "Current lowest step": 2
+  },
+  {
+    "Position": "State Library Specialist 1",
+    "Classification_Code": 351,
+    "Current lowest step": 2
+  },
+  {
+    "Position": "Forest Lookout",
+    "Classification_Code": 8353,
+    "Current lowest step": 3
+  },
+  {
+    "Position": "Wildland Fire Dispatcher Entry",
+    "Classification_Code": 8363,
+    "Current lowest step": 3
+  }
+]
